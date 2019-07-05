@@ -459,7 +459,7 @@
         <form
           method="POST"
           name="sentMessage"
-          id="contactForm" action="//formspree.io/filipchodorowski@gmail.com">
+	  action="//formspree.io/filipchodorowski@gmail.com">
 
           <fieldset>
             <div class="row">
@@ -512,9 +512,20 @@
                   
                 </div><br />
                 
-                  <button type="submit" value="Submit" class="btn btn-xl">
-                    Wyślij wiadomość
-                  </button>
+                  <div class="g-recaptcha-container">
+                    <span class="g-recaptcha-filler"></span>
+                    <button
+                      type="submit"
+                      value="Submit"
+                      class="g-recaptcha btn btn-xl"
+                      data-sitekey="6LeONawUAAAAAAgEwT7SpqFosSjGSlK7xTgPDP3O"
+                      data-size="invisible"
+                      data-badge="inline"
+                      data-callback="onContactCaptcha">
+                      Wyślij wiadomość
+                    </button>
+                    <span class="filler"></span>
+                  </div>
                 
               </div>
             </div>
@@ -527,6 +538,32 @@
 </section>
 
     
+
+    
+      <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Published under the Apache License 2.0.</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+
+          
+
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+
+          
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
     
 
@@ -792,6 +829,8 @@
 
 
 
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 
