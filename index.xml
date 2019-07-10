@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ok</title>
-    <link>onlinekursy.org/</link>
+    <link>/</link>
     <description>Recent content on Ok</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
     
-	<atom:link href="onlinekursy.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
